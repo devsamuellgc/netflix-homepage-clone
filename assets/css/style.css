@@ -50,18 +50,18 @@
 
 .menu-header .idiomas {
   position: relative;
-  padding: 5px 5px 5px 20px;;
+  padding: 5px 5px 5px 20px;
   border: 1px solid white;
   border-radius: 6px;
+  display: flex;
 }
 
 .menu-header .idiomas .world {
   position: absolute;
-  left: 5%;
-  bottom: 10%;
+  left: 4px;
+  bottom: 4px;
   color: white;
 }
-
 
 .menu-header .idiomas select {
   border: none;
@@ -86,5 +86,6 @@
   linear-gradient(to top, 
   rgba(0, 0, 0, 0.8) 0, 
   rgba(0, 0, 0, 0) 50%, 
-   rgba(0, 0, 0, 0.8) 100%);
+  rgba(0, 0, 0, 0.8) 100%);
 }
+
