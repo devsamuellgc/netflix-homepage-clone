@@ -50,23 +50,23 @@
 
 .menu-header .idiomas {
   position: relative;
-  padding: 5px;
+  padding: 5px 5px 5px 20px;
   border: 1px solid white;
   border-radius: 6px;
 }
 
 .menu-header .idiomas .world {
   position: absolute;
-  left: 0;
-}
+  left: 4px;
+  bottom: 4px;
+  color: white;
 
-.menu-header .idiomas .arrow {
-  position: absolute;
-  right: 0;
 }
 
 .menu-header .idiomas select {
   border: none;
+  background-color: transparent;
+  color: white;
 }
 
 .bg-img {
@@ -74,4 +74,13 @@
   width: 100vw;
   background-size: cover;
   background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/f471d806-8863-48fc-a5e0-b4f523943d0c/BR-pt-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.bg-black {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
 }
